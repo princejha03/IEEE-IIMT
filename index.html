@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="ieee-dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IEEE Student Branch - IIMT College of Engineering</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__brand">
+                <div class="nav__logo-container">
+                    <div class="ieee-logo">IEEE</div>
+                    <div class="nav__text">
+                        <span class="nav__logo">Student Branch</span>
+                        <span class="nav__subtitle">IIMT College of Engineering</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#chapters" class="nav__link">Chapters</a></li>
+                    <li class="nav__item"><a href="#events" class="nav__link">Events</a></li>
+                    <li class="nav__item"><a href="#team" class="nav__link">Team</a></li>
+                    <li class="nav__item"><a href="#gallery" class="nav__link">Gallery</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero__container container">
+            <div class="hero__content">
+                <div class="hero__badge">
+                    <div class="ieee-badge">
+                        <div class="ieee-badge__inner">
+                            <span class="ieee-badge__text">IEEE</span>
+                            <span class="ieee-badge__year">Est. 1884</span>
+                            <span class="ieee-badge__tagline">ADVANCING TECHNOLOGY</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <h1 class="hero__tagline">WE ARE IEEE STUDENT BRANCH</h1>
+                <h2 class="hero__title">Technology and Research Community</h2>
+                <p class="hero__description">Fostering innovation, technical knowledge, and professional development among students passionate about engineering and technology at IIMT College.</p>
+                
+                <div class="hero__buttons">
+                    <button class="btn btn--primary" onclick="scrollToSection('about')">Join IEEE</button>
+                    <button class="btn btn--secondary" onclick="scrollToSection('chapters')">Explore More</button>
+                </div>
+            </div>
+
+            <div class="hero__stats">
+                <div class="stat-card">
+                    <span class="stat-card__number">150+</span>
+                    <span class="stat-card__label">Active Members</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-card__number">25+</span>
+                    <span class="stat-card__label">Events per Year</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-card__number">6</span>
+                    <span class="stat-card__label">Active Chapters</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-card__number">50+</span>
+                    <span class="stat-card__label">Industry Connections</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About IEEE Student Branch</h2>
+                <p class="section-subtitle">Connecting the Global IEEE Community</p>
+            </div>
+            
+            <div class="about__content">
+                <div class="about__main">
+                    <h3>Our Mission</h3>
+                    <p>Fostering innovation, technical knowledge, and professional development among students passionate about engineering and technology.</p>
+                    
+                    <h3>Our Vision</h3>
+                    <p>To cultivate a dynamic platform where students explore, experiment, and excel in engineering and technology while connecting with the global IEEE network.</p>
+                </div>
+                
+                <div class="benefits__grid">
+                    <div class="benefit-card">
+                        <div class="benefit-card__icon">🌍</div>
+                        <h4>Global Network Access</h4>
+                        <p>Connect with 400,000+ IEEE members worldwide and access exclusive networking opportunities.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-card__icon">📚</div>
+                        <h4>Technical Resources</h4>
+                        <p>Access IEEE Xplore digital library with millions of technical papers and industry standards.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-card__icon">🎯</div>
+                        <h4>Professional Development</h4>
+                        <p>Enhance skills through workshops, seminars, certifications, and leadership opportunities.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-card__icon">💼</div>
+                        <h4>Career Opportunities</h4>
+                        <p>Access job boards, career guidance, internships, and industry connections worldwide.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-card__icon">🔬</div>
+                        <h4>Research Support</h4>
+                        <p>Get support for research projects, paper publications, and conference presentations.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-card__icon">🏆</div>
+                        <h4>Exclusive Events</h4>
+                        <p>Participate in IEEE conferences, competitions, and technical events with special student rates.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chapters Section -->
+    <section class="chapters" id="chapters">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Chapters</h2>
+                <p class="section-subtitle">Specialized Technical Communities</p>
+            </div>
+            
+            <div class="chapters__grid">
+                <div class="chapter-card">
+                    <div class="chapter-card__icon">💻</div>
+                    <div class="chapter-card__content">
+                        <h3>IEEE Computer Society</h3>
+                        <span class="chapter-card__acronym">CS</span>
+                        <p>Advancing computing technology and connecting computing professionals worldwide through technical activities, networking, and career development.</p>
+                        <div class="chapter-card__activities">
+                            <span class="activity-tag">AI/ML Workshops</span>
+                            <span class="activity-tag">Coding Competitions</span>
+                            <span class="activity-tag">Tech Talks</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="chapter-card">
+                    <div class="chapter-card__icon">👩‍💻</div>
+                    <div class="chapter-card__content">
+                        <h3>IEEE Women in Engineering</h3>
+                        <span class="chapter-card__acronym">WIE</span>
+                        <p>Inspiring women engineers and scientists to achieve their full potential and encouraging girls to pursue engineering careers.</p>
+                        <div class="chapter-card__activities">
+                            <span class="activity-tag">Leadership Programs</span>
+                            <span class="activity-tag">Mentoring</span>
+                            <span class="activity-tag">Professional Development</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="chapter-card">
+                    <div class="chapter-card__icon">⚡</div>
+                    <div class="chapter-card__content">
+                        <h3>IEEE Power & Energy Society</h3>
+                        <span class="chapter-card__acronym">PES</span>
+                        <p>Advancing the theory and practice of electrical power and energy systems for the benefit of humanity.</p>
+                        <div class="chapter-card__activities">
+                            <span class="activity-tag">Power Systems Seminars</span>
+                            <span class="activity-tag">Renewable Energy Projects</span>
+                            <span class="activity-tag">Industry Visits</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="chapter-card">
+                    <div class="chapter-card__icon">📡</div>
+                    <div class="chapter-card__content">
+                        <h3>IEEE Communications Society</h3>
+                        <span class="chapter-card__acronym">ComSoc</span>
+                        <p>Promoting the advancement of communications technology and fostering innovation in telecommunications.</p>
+                        <div class="chapter-card__activities">
+                            <span class="activity-tag">5G/6G Workshops</span>
+                            <span class="activity-tag">Networking Labs</span>
+                            <span class="activity-tag">Research Projects</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="chapter-card">
+                    <div class="chapter-card__icon">🤖</div>
+                    <div class="chapter-card__content">
+                        <h3>IEEE Robotics & Automation</h3>
+                        <span class="chapter-card__acronym">RAS</span>
+                        <p>Advancing the understanding of robotics and automation and their applications in society.</p>
+                        <div class="chapter-card__activities">
+                            <span class="activity-tag">Robot Building Workshops</span>
+                            <span class="activity-tag">Automation Projects</span>
+                            <span class="activity-tag">Competitions</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="chapter-card">
+                    <div class="chapter-card__icon">📊</div>
+                    <div class="chapter-card__content">
+                        <h3>IEEE Signal Processing</h3>
+                        <span class="chapter-card__acronym">SPS</span>
+                        <p>Advancing and disseminating signal processing technology and applications for the benefit of humanity.</p>
+                        <div class="chapter-card__activities">
+                            <span class="activity-tag">Image Processing Labs</span>
+                            <span class="activity-tag">DSP Workshops</span>
+                            <span class="activity-tag">Research Publications</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section class="events" id="events">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Events & Activities</h2>
+                <p class="section-subtitle">Upcoming and Recent Events</p>
+            </div>
+            
+            <div class="events__grid">
+                <div class="event-card event-card--featured">
+                    <div class="event-card__date">
+                        <span class="event-card__month">NOV</span>
+                        <span class="event-card__day">15</span>
+                    </div>
+                    <div class="event-card__content">
+                        <span class="event-card__type">Technical Workshop</span>
+                        <h3>AI & Machine Learning Workshop</h3>
+                        <p>Hands-on workshop covering latest trends in AI/ML with practical implementations.</p>
+                        <button class="btn btn--primary btn--sm">Register Now</button>
+                    </div>
+                </div>
+                
+                <div class="event-card">
+                    <div class="event-card__date">
+                        <span class="event-card__month">DEC</span>
+                        <span class="event-card__day">08</span>
+                    </div>
+                    <div class="event-card__content">
+                        <span class="event-card__type">Conference</span>
+                        <h3>Women in Engineering Summit</h3>
+                        <p>Empowering women engineers through networking, mentoring, and career development sessions.</p>
+                        <button class="btn btn--outline btn--sm">Learn More</button>
+                    </div>
+                </div>
+                
+                <div class="event-card">
+                    <div class="event-card__date">
+                        <span class="event-card__month">JAN</span>
+                        <span class="event-card__day">20</span>
+                    </div>
+                    <div class="event-card__content">
+                        <span class="event-card__type">Competition</span>
+                        <h3>Robotics Competition</h3>
+                        <p>Inter-college robotics competition featuring autonomous robots and innovative solutions.</p>
+                        <button class="btn btn--outline btn--sm">Learn More</button>
+                    </div>
+                </div>
+                
+                <div class="event-card">
+                    <div class="event-card__date">
+                        <span class="event-card__month">FEB</span>
+                        <span class="event-card__day">12</span>
+                    </div>
+                    <div class="event-card__content">
+                        <span class="event-card__type">Industry Talk</span>
+                        <h3>Industry Connect Session</h3>
+                        <p>Connect with industry experts and learn about latest technology trends and career opportunities.</p>
+                        <button class="btn btn--outline btn--sm">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Announcements Section -->
+    <section class="announcements">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Latest Announcements</h2>
+            </div>
+            
+            <div class="announcements__grid">
+                <div class="announcement-card announcement-card--high">
+                    <div class="announcement-card__header">
+                        <span class="announcement-card__priority">High Priority</span>
+                        <span class="announcement-card__date">Oct 01, 2024</span>
+                    </div>
+                    <h3>IEEE Membership Drive 2024-25</h3>
+                    <p>Join the IEEE Student Branch and get access to exclusive resources, networking opportunities, and professional development programs. Special discounted rates for students!</p>
+                </div>
+                
+                <div class="announcement-card announcement-card--medium">
+                    <div class="announcement-card__header">
+                        <span class="announcement-card__priority">Medium Priority</span>
+                        <span class="announcement-card__date">Oct 15, 2024</span>
+                    </div>
+                    <h3>Call for Papers - Student Research Showcase</h3>
+                    <p>Submit your research papers for our annual student research showcase. Best papers will be recommended for IEEE conferences.</p>
+                </div>
+                
+                <div class="announcement-card announcement-card--medium">
+                    <div class="announcement-card__header">
+                        <span class="announcement-card__priority">Medium Priority</span>
+                        <span class="announcement-card__date">Oct 20, 2024</span>
+                    </div>
+                    <h3>Volunteer Opportunities Available</h3>
+                    <p>Looking for passionate students to join our organizing committees for upcoming events. Great opportunity for leadership experience!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team" id="team">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Team</h2>
+                <p class="section-subtitle">Leadership & Executive Committee</p>
+            </div>
+            
+            <div class="team__grid">
+                <div class="team-card team-card--advisor">
+                    <div class="team-card__avatar">
+                        <span class="team-card__placeholder">RK</span>
+                    </div>
+                    <div class="team-card__info">
+                        <h3>Dr. Rajesh Kumar</h3>
+                        <span class="team-card__role">Faculty Advisor</span>
+                        <span class="team-card__department">Electrical Engineering</span>
+                        <a href="mailto:rajesh.kumar@iimt.ac.in" class="team-card__email">rajesh.kumar@iimt.ac.in</a>
+                    </div>
+                </div>
+                
+                <div class="team-card">
+                    <div class="team-card__avatar">
+                        <span class="team-card__placeholder">AS</span>
+                    </div>
+                    <div class="team-card__info">
+                        <h3>Arjun Sharma</h3>
+                        <span class="team-card__role">Chairperson</span>
+                        <span class="team-card__year">Final Year CSE</span>
+                        <a href="mailto:arjun.sharma@iimt.ac.in" class="team-card__email">arjun.sharma@iimt.ac.in</a>
+                    </div>
+                </div>
+                
+                <div class="team-card">
+                    <div class="team-card__avatar">
+                        <span class="team-card__placeholder">PP</span>
+                    </div>
+                    <div class="team-card__info">
+                        <h3>Priya Patel</h3>
+                        <span class="team-card__role">Vice Chairperson</span>
+                        <span class="team-card__year">Third Year ECE</span>
+                        <a href="mailto:priya.patel@iimt.ac.in" class="team-card__email">priya.patel@iimt.ac.in</a>
+                    </div>
+                </div>
+                
+                <div class="team-card">
+                    <div class="team-card__avatar">
+                        <span class="team-card__placeholder">RV</span>
+                    </div>
+                    <div class="team-card__info">
+                        <h3>Rohit Verma</h3>
+                        <span class="team-card__role">Secretary</span>
+                        <span class="team-card__year">Third Year EEE</span>
+                        <a href="mailto:rohit.verma@iimt.ac.in" class="team-card__email">rohit.verma@iimt.ac.in</a>
+                    </div>
+                </div>
+                
+                <div class="team-card">
+                    <div class="team-card__avatar">
+                        <span class="team-card__placeholder">SG</span>
+                    </div>
+                    <div class="team-card__info">
+                        <h3>Sneha Gupta</h3>
+                        <span class="team-card__role">Treasurer</span>
+                        <span class="team-card__year">Second Year CSE</span>
+                        <a href="mailto:sneha.gupta@iimt.ac.in" class="team-card__email">sneha.gupta@iimt.ac.in</a>
+                    </div>
+                </div>
+                
+                <div class="team-card">
+                    <div class="team-card__avatar">
+                        <span class="team-card__placeholder">VS</span>
+                    </div>
+                    <div class="team-card__info">
+                        <h3>Vikash Singh</h3>
+                        <span class="team-card__role">Technical Lead</span>
+                        <span class="team-card__year">Final Year ECE</span>
+                        <a href="mailto:vikash.singh@iimt.ac.in" class="team-card__email">vikash.singh@iimt.ac.in</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Gallery</h2>
+                <p class="section-subtitle">Moments from Our Events</p>
+            </div>
+            
+            <div class="gallery__grid">
+                <div class="gallery-item">
+                    <div class="gallery-item__placeholder">
+                        <span class="gallery-item__icon">🎓</span>
+                        <span class="gallery-item__text">IEEE Day 2024</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-item__placeholder">
+                        <span class="gallery-item__icon">🤖</span>
+                        <span class="gallery-item__text">Robotics Workshop</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-item__placeholder">
+                        <span class="gallery-item__icon">👩‍💻</span>
+                        <span class="gallery-item__text">WIE Summit</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-item__placeholder">
+                        <span class="gallery-item__icon">🏆</span>
+                        <span class="gallery-item__text">Technical Competition</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-item__placeholder">
+                        <span class="gallery-item__icon">💻</span>
+                        <span class="gallery-item__text">Coding Marathon</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-item__placeholder">
+                        <span class="gallery-item__icon">📡</span>
+                        <span class="gallery-item__text">Tech Talk Series</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Join Our IEEE Community</p>
+            </div>
+            
+            <div class="contact__grid">
+                <div class="contact__info">
+                    <div class="contact__item">
+                        <div class="contact__icon">📍</div>
+                        <div class="contact__details">
+                            <h4>Address</h4>
+                            <p>IIMT College of Engineering, Greater Noida, UP 201310</p>
+                        </div>
+                    </div>
+                    <div class="contact__item">
+                        <div class="contact__icon">📞</div>
+                        <div class="contact__details">
+                            <h4>Phone</h4>
+                            <p>+91-120-2323456</p>
+                        </div>
+                    </div>
+                    <div class="contact__item">
+                        <div class="contact__icon">✉️</div>
+                        <div class="contact__details">
+                            <h4>Email</h4>
+                            <p>ieee@iimt.ac.in</p>
+                        </div>
+                    </div>
+                    <div class="contact__item">
+                        <div class="contact__icon">🌐</div>
+                        <div class="contact__details">
+                            <h4>Social Media</h4>
+                            <div class="social-links">
+                                <a href="#" target="_blank">LinkedIn</a>
+                                <a href="#" target="_blank">Instagram</a>
+                                <a href="#" target="_blank">Facebook</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact__form">
+                    <form class="form" id="contact-form">
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" class="form-control" name="phone" placeholder="Your Phone" required>
+                        </div>
+                        <div class="form-group">
+                            <select class="form-control" name="interest" required>
+                                <option value="">Select Interest Area</option>
+                                <option value="membership">IEEE Membership</option>
+                                <option value="events">Event Participation</option>
+                                <option value="volunteer">Volunteer Opportunities</option>
+                                <option value="research">Research Collaboration</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" name="message" rows="4" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--full-width">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <div class="footer__logo-container">
+                        <div class="ieee-logo">IEEE</div>
+                        <div class="footer__text">
+                            <span class="footer__logo">IEEE Student Branch</span>
+                            <p class="footer__description">IIMT College of Engineering - Technology and Research Community</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__links">
+                    <a href="#" class="footer__link">Privacy Policy</a>
+                    <a href="#" class="footer__link">Code of Ethics</a>
+                    <a href="#" class="footer__link">Membership</a>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2024 IEEE Student Branch, IIMT College of Engineering. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Join IEEE Modal -->
+    <div class="modal hidden" id="join-modal">
+        <div class="modal__backdrop" onclick="closeModal('join-modal')"></div>
+        <div class="modal__content">
+            <div class="modal__header">
+                <h3>Join IEEE Student Branch</h3>
+                <button class="modal__close" onclick="closeModal('join-modal')">&times;</button>
+            </div>
+            <div class="modal__body">
+                <p>Ready to join the world's largest technical professional organization? Fill out the form below to get started with your IEEE membership.</p>
+                <form class="form" id="join-form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Full Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Email Address" required>
+                    </div>
+                    <div class="form-group">
+                        <select class="form-control" required>
+                            <option value="">Select Your Branch</option>
+                            <option value="cse">Computer Science Engineering</option>
+                            <option value="ece">Electronics & Communication</option>
+                            <option value="eee">Electrical Engineering</option>
+                            <option value="me">Mechanical Engineering</option>
+                            <option value="ce">Civil Engineering</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <select class="form-control" required>
+                            <option value="">Select Year</option>
+                            <option value="first">First Year</option>
+                            <option value="second">Second Year</option>
+                            <option value="third">Third Year</option>
+                            <option value="final">Final Year</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn--primary btn--full-width">Submit Application</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
